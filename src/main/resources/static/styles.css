@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: url('banner.jpg') no-repeat center center/cover;
+}
+header{
+    background-color: antiquewhite;
+    padding: 15px;
+    white-space: nowrap; /* Prevent the text from wrapping */
+  overflow: hidden; /* Hide overflow if the text exceeds the available space */
+  text-overflow: ellipsis;
+}
+
+.form{
+    margin: 10%;
+    text-align: center;
+    background-color: #f4f4f4;
+    line-height: 50px ;
+    font-size: large;
+    white-space: nowrap; /* Prevent the text from wrapping */
+  overflow: hidden; /* Hide overflow if the text exceeds the available space */
+  text-overflow: ellipsis;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+#a{
+    display:inline-block;
+    padding-left: 3%;
+}
+#aa{
+    display: inline-block;
+    padding-left: 60%;
+    padding-right: 5%;
+}
+#ab{
+    display: inline-block;
+    padding-right: 5%;
+    
+}
+#ac{
+    display: inline-block;
+}
+
+footer{
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap; /* Prevent the text from wrapping */
+  overflow: hidden; /* Hide overflow if the text exceeds the available space */
+  text-overflow: ellipsis;
+}

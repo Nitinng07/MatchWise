@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaadi Matchmaking</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ShaadiMatch</div>
+            <ul>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/">Main</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Your Perfect Match</h1>
+            <p>Join thousands of happy couples who met on ShaadiMatch.</p>
+            <h2 style="color: rgb(218, 233, 53);">Register here</h2>
+            <div class="form">
+                <form action="/register" th:object="${account}" method="post">
+                    Name : <input type="text" id="name" th:field="*{name}" class="form-control"><br>
+                    Email : <input type="text" id="email" th:field="*{email}" class="form-control"><br>
+                    Password : <input type="text" id="password" th:field="*{password}" class="form-control"><br>
+                    <button>Submit</button> <br>
+                
+                </form>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@shaadimatch.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ShaadiMatch. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
